@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+    <link rel="stylesheet" href="style.css">
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- practice problem-1 -->
+    <div class="flex justify-center flex-col items-center mt-12">
+        <div class="Step1">
+        <button onclick="Button1()" class="btn btn-active btn-secondary">Button-1</button>
+        <button onclick="Button2()" class="btn btn-active btn-secondary">Button-2</button>
+        <button onclick="getnameage()" class="btn btn-active btn-secondary">Get Name age</button>
+        <button onclick="removenameage()" class="btn btn-active btn-secondary">Remove Name age</button>
+        <button onclick="setobj()" class="btn btn-active btn-secondary">Set Obj</button>
+        <button onclick="getobj()" class="btn btn-active btn-secondary">Get Obj</button>
+        <button onclick="clearLocalStorage()" class="btn btn-active btn-secondary">Clear localStorage</button>
+    </div>
+
+    <div class="Tag text-2xl"><span>Another Local Storage</span></div>
+
+    </div>
+
+
+
+    <!-- practice problem-2 -->
+    <h1 class="text-center text-2xl mt-6 text-warning">Count problem</h1>
+<div class="flex justify-center flex-col items-center mt-4">
+    <p class="text-bold text-2xl">count:<span id="count"> 0</span></p>
+<button id="click-btn" class="btn btn-active btn-secondary items-center w-25 mt-4" >click me</button>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
